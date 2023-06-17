@@ -49,7 +49,7 @@ header {
 }
 
 .logo img {
-  width: 40px;
+  width: 65px;
   margin-right: 10px;
 }
 
@@ -66,6 +66,7 @@ nav ul {
 
 nav ul li {
   margin-right: 20px;
+  
 }
 
 nav ul li a {
@@ -77,8 +78,6 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
-
-
 section {
   padding: 50px;
 }
@@ -461,7 +460,7 @@ footer {
     padding-right: 0;
   }
   .review-item{
-    width: 100px;
+    width: 100%;
     padding: 0;
   }
   #reviews{
@@ -510,6 +509,9 @@ footer {
    #reviews h2{
     margin-bottom: 0;
 
+  }
+  .header-container h1{
+    display: none;
   }
 }
 @media (max-width: 525px) {
@@ -565,7 +567,7 @@ header{
   padding:0
 }
 .review-item{
-    width: 60px;
+    width: 100%;
     padding: 0;
   }
   .review-item img{
@@ -576,7 +578,7 @@ header{
     font-size: 10px;
   }
   .review-item p{
-    font-size: 8px;
+    font-size: 6px;
   }
   
 }
